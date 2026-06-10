@@ -1,0 +1,44 @@
+SET NOCOUNT ON
+INSERT INTO [dbo].[DACS_PERSON]([person_id],[first name],[second name],[third name],[surname],[NINO],[gender],[dob])
+VALUES(1234,'Trevor','Ernest',null,'Bayliss','MN8987Y','Male','1964-08-14')
+INSERT INTO [dbo].[DACS_CASENOTES]([person_id],[case notes])
+VALUES(1234,'First meeting went well, Trevor has been having trouble getting to the shops, will refer him to the appropriate service. Mel Griffiths | Mob :0787978797 | Email: mel@gov.org')
+INSERT INTO [dbo].[DACS_ARREARS]([person_id],[debt],[credit],[pending])
+VALUES(1234,null,34.99,null)
+INSERT INTO [dbo].[DACS_ADDRESS]([person_id],[address line 1],[address line 2],[address line 3],[address line 4],[postcode],[upn])
+VALUES(1234,'54 Last lane','Trompington','Gravesham','Kent','GR39JL',5678)
+INSERT INTO [dbo].[DACS_DEPENDENTS] ([person_id] ,[name], [age])
+VALUES(1234,'Holly Bayliss', 5)
+INSERT INTO [dbo].[DACS_DEPENDENTS] ([person_id] ,[name], [age])
+VALUES(1234,'George Bayliss', 9)
+
+INSERT INTO [dbo].[DACS_PERSON]([person_id],[first name],[second name],[third name],[surname],[NINO],[gender],[dob])
+VALUES(5678,'Stephen','Jeremy','Thomas','Jones','LK 89 65 D',NULL,'1972-03-07')
+INSERT INTO [dbo].[DACS_CASENOTES]([person_id],[case notes])
+VALUES(5678,'Tried to Telephone, no answer. Wil try again in a few days')
+INSERT INTO [dbo].[DACS_ARREARS]([person_id],[debt],[credit],[pending])
+VALUES(5678,0.0,0.0,0.0)
+INSERT INTO [dbo].[DACS_ADDRESS]([person_id],[address line 1],[address line 2],[address line 3],[address line 4],[postcode],[upn])
+VALUES(5678,'1 The View','Saddlers Wells',NULL,NULL,NULL,9182)
+INSERT INTO [dbo].[DACS_DEPENDENTS] ([person_id] ,[name], [age])
+VALUES(5678,'James Jones', 15)
+
+INSERT INTO [dbo].[DACS_PERSON]([person_id],[first name],[second name],[third name],[surname],[NINO],[gender],[dob])
+VALUES(9012,'Rachael',NULL,NULL,'Bolton','UNKNOWN','Female', NULL)
+INSERT INTO [dbo].[DACS_CASENOTES]([person_id],[case notes])
+VALUES(9012,'First meeting has been booked in at:
+Room 3
+Town Hall
+Anytown
+')
+INSERT INTO [dbo].[DACS_ARREARS]([person_id],[debt],[credit],[pending])
+VALUES(9012,1090,0.0,650.0)
+INSERT INTO [dbo].[DACS_ADDRESS]([person_id],[address line 1],[address line 2],[address line 3],[address line 4],[postcode],[upn])
+VALUES(9012,'NO ADDRESS GIVEN',NULL,NULL,NULL,NULL,8899)
+
+
+
+
+
+
+

@@ -1,0 +1,23 @@
+# OS noise
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+.DS_Store
+
+# Editors / IDEs
+.vscode/
+.idea/
+*.suo
+*.user
+*.sln.docstates
+
+# SQL Server data/backup files (never commit these)
+*.bak
+*.mdf
+*.ldf
+*.ndf
+
+# Logs / temp
+*.log
+*.tmp
+*~
