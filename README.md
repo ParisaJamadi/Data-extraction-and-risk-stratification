@@ -1,6 +1,6 @@
-# Xantura — Data & Analytics Consultant: Take-Home Task
+# Data & Analytics Consultant: Take-Home Task
 
-My response to the Xantura Data & Analytics Consultant interview task. It is **not a runnable
+My response to the Data & Analytics Consultant interview task. It is **not a runnable
 application** — it is a SQL extraction script plus a written approach document.
 
 > No Python. **Part 1** is a SQL exercise (Microsoft SQL Server / MSSQL on Windows Server);
@@ -11,7 +11,7 @@ application** — it is a SQL extraction script plus a written approach document
 ## The task
 
 1. **Part 1 – Data Extraction:** Build the sample client database, analyse its data-quality
-   problems, and write a SQL script that extracts the data into Xantura's pipe-delimited
+   problems, and write a SQL script that extracts the data into a company's pipe-delimited
    DACSV3 CSV format.
 2. **Part 2 – Data Science:** Outline an approach to stratify frailty risk (Low/Med/High) for a
    UK local authority's 65+ population, using structured and unstructured data.
