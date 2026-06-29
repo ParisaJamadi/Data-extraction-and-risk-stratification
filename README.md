@@ -1,7 +1,5 @@
-# Data & Analytics Consultant: Take-Home Task
+# Data & Analytics Consultant: 
 
-My response to the Data & Analytics Consultant interview task. It is **not a runnable
-application** — it is a SQL extraction script plus a written approach document.
 
 > No Python. **Part 1** is a SQL exercise (Microsoft SQL Server / MSSQL on Windows Server);
 > **Part 2** asks for an *outline of an approach*, not working model code.
